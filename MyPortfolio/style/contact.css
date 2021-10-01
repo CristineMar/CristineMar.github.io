@@ -1,0 +1,12 @@
+@import "global.css";
+
+.card-img-top {
+    background: linear-gradient(307deg, rgb(0 0 0 / 18%) 0%, rgb(0 0 0 / 28%) 100%), url(../media/bg-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 9em;
+}
+iframe {
+    width: -webkit-fill-available;
+}

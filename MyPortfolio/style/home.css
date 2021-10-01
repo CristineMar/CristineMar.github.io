@@ -1,0 +1,42 @@
+@import "global.css";
+  
+  .masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  @keyframes changetext{
+    0%{content: "Welcome to my personal Portfolio";}
+    20%{content: "Bienvenido a mi portafolio personal";}
+    35%{content: "Bienvenue dans mon portfolio personnel";}
+    50%{content: "내 개인 포트폴리오에 오신 것을 환영합니다";}
+    65%{content: "私の個人的なポートフォリオへようこそ";}
+    80%{content: "Välkommen till min personliga portfölj";}
+    100%{content: "Welina i kaʻu Portrait pilikino";}
+}
+
+.change_content:after{
+  content: '';
+  animation: changetext 5s infinite linear;
+  color: #be67ba;
+}
+
+.masthead h1 {
+  font-size: 5.5rem;
+}
+
+
+  /*   .masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../media/masthead.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */

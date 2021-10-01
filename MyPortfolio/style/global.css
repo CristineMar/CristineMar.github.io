@@ -1,0 +1,16 @@
+@import "navbar.css";
+@import "footer.css";
+
+body {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../media/masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page-container {
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }

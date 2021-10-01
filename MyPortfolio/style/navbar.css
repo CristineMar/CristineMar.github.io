@@ -1,0 +1,41 @@
+/*NAVIGATION*/
+
+#mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: #ffffff0f;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding:20px 0 20px;
+  z-index: 500;
+}
+  
+  #mainNav .navbar-brand {
+    font-weight: 800;
+    color: #343a40;
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  #mainNav .navbar-nav > a {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .navbar-header {
+    margin: 0 2em 0 2em;
+  }
+
+  @media only screen and (max-width : 985px) {
+    .navbar-collapse {
+      background-color: #f7e7ec;
+      padding-left: 2rem
+  }
+}
