@@ -92,6 +92,10 @@ export default {
   }
 }
 
+h1, h2, h3{
+    font-family: 'glacial_indifferenceregular' , sans-serif;
+}
+
 .shadow {
 -webkit-box-shadow: 0px 10px 13px -7px #000000, 9px -23px 21px -9px rgba(168,168,168,0); 
 box-shadow: 0px 10px 13px -7px #000000, 9px -23px 21px -9px rgba(168,168,168,0);

@@ -27,7 +27,7 @@
       />
       <!-- WHAT I DO -->
       <div class="row align-items-center">
-        <h2 class="text-center mb-4">What I do</h2>
+        <h3 class="text-center mb-4">What I do</h3>
         <div
           class="
             col

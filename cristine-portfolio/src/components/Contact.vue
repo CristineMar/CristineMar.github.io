@@ -13,7 +13,7 @@
         align-items-center
       "
     >
-      <h1 class="mb-3">Like what you see?</h1>
+      <h1 class="mb-3" style="color: white">Like what you see?</h1>
       <button
         class="btn btn-outline-primary"
         data-toggle="modal"
@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style scoped>
+
+@import url('../assets/fonts/glacial-indiference/stylesheet.css');
+
 .bg-pink {
   background-color: #febfcb;
   height: 30vh;
@@ -45,11 +48,11 @@ export default {
 
 .btn-outline-primary {
   border-color: white;
-  color: black;
+  color: white;
 }
 
 .btn-outline-primary:hover {
-  color: black;
+  color: #d26375;
   background-color: white !important;
   border-color: white !important;
 }
@@ -67,4 +70,6 @@ export default {
 .bg-shadow {
   box-shadow: 0 1px 3px rgba(8, 33, 30, 0.5);
 }
+
+
 </style>
