@@ -1,45 +1,25 @@
 <template>
-  <div class="bg-secondary">
-    <div class="container py-3">
-      <div class="row pt-1 align-items-center">
-        <div
-          class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
-          style="color: white"
-        >
-          <span>© 2022 Copyright: Cristine Marquez</span>
-        </div>
-
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
-          <div class="text-center">
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('linkedin')"
-            >
-              <i class="fab fa-linkedin"></i>
-            </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('github')"
-            >
-              <i class="fab fa-github"></i>
-            </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-            >
-              <i class="fab fa-angellist"></i>
-            </button>
-            <button
-              class="btn btn-outline-secondary mx-2"
-              @click="open('resume')"
-            >
-              <i class="fa fa-file"></i>
-            </button>
-          </div>
-        </div>
+<div class="row " :class="{ 'bg-honeycomb-pink': !nightMode, 'bg-dark': nightMode }"> 
+      <div id="follow-me" class="col-xs-12 col-sm-5 mb-3">
+        <h3>Follow me!</h3>
+        <a class="social" :href="linkedin" target="_blank" title="LinkedIn">
+          <img src="../assets/icons/social/LinkedIn-black.svg" alt="LinkedIn Icon">
+        </a>
+        <a class="social" :href="github" target="_blank" title="Github">
+          <img src="../assets/icons/social/Github-black.svg" alt="Github Icon">
+        </a>
+        <a class="social" :href="jsfiddle" target="_blank" title="JsFiddle">
+          <img src="../assets/icons/social/Codepen-black.svg" alt="JsFiddle Icon">
+        </a>
+      </div>
+      <div class="col-xs-12 text-center">
+        <hr class="dashed mb-3">
+        <h2>&ndash; Thanks for visiting! &ndash;</h2>
+        <small class="gray">Copyright &copy; 
+          2022
+          Cristine Marquez &mdash; All Rights Reserved &mdash; Made with <i class="fa-solid fa-heart" style="color:red"></i></small>
       </div>
     </div>
-  </div>
 </template>
 
 
@@ -52,9 +32,13 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
-      resume: info.links.resume,
+      jsfiddle: info.links.jsfiddle,
     };
+  },
+  props: {
+    nightMode: {
+      type: Boolean,
+    },
   },
   methods: {
     open(link) {
@@ -78,9 +62,6 @@ export default {
 </script>
 
 <style scoped>
-span {
-  font-weight: 500;
-}
 
 .btn {
   border-color: white;
@@ -99,10 +80,29 @@ span {
   color: gray;
 }
 
-@media screen and (max-width: 580px) {
-  .pbelow {
-    padding-bottom: 20px;
-    text-align: center;
-  }
+.bg-honeycomb-pink {
+  background: pink url("../assets/images/honeycomb-pink.png") fixed;
+  background-size: 40px;
+  padding: 10vh;
+}
+
+/* Social Icons */
+.social {
+  display: inline-block;
+  transition: box-shadow 0.2s ease-in-out,
+              transform 0.2s ease-in-out;
+  height: 36px;
+  margin-left: 3px;
+  width: 36px;
+}
+.social:focus,
+.social:hover {
+  background-color: transparent;
+}
+.social + .social {
+  margin-left: 9px;
+}
+.social img {
+  max-width: 100%;
 }
 </style>
