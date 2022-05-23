@@ -14,17 +14,16 @@
           <h1 class="home-title pink" > <!-- :class="{ 'pink': !nightMode, 'text-light': nightMode }" -->
             Hi! My name is Cristine Marquez.
           </h1>
-          <div>
             <h4 class="d-flex justify-content-center">
               <p class="change_content txt-black" id="text-color" :class="{'txt-black' : !nightMode, 'text-light': nightMode}"> </p>
             </h4>
-          </div>
           <div class="mt-5 d-flex justify-content-center">
             <a
               class="btn btn-outline-primary btn-lg"
               href="/about"
               @click.prevent="$emit('scroll', 'about')"
               :class="{ 'text-light': nightMode }"
+              aria-label="darkMode button"
             >
             <i class="fa-solid fa-angle-down"></i>
               Learn more

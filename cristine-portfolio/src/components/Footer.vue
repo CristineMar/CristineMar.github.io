@@ -1,5 +1,5 @@
 <template>
-<div class="row " :class="{ 'bg-honeycomb-pink': !nightMode, 'bg-dark': nightMode }"> 
+<div class="row spacingFoot" :class="{ 'bg-honeycomb-pink': !nightMode, 'bg-dark': nightMode }"> 
       <div id="follow-me" class="col-xs-12 col-sm-5 mb-3">
         <h3>Follow me!</h3>
         <a class="social" :href="linkedin" target="_blank" title="LinkedIn">
@@ -83,6 +83,9 @@ export default {
 .bg-honeycomb-pink {
   background: pink url("../assets/images/honeycomb-pink.png") fixed;
   background-size: 40px;
+}
+
+.spacingFoot {
   padding: 10vh;
 }
 

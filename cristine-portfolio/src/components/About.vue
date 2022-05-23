@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="{ 'bg-light': !nightMode, 'bg-dark3': nightMode }"
+    :class="{ 'bg-light': !nightMode, 'bg-dark': nightMode }"
     class="pt-5 p-st pb-5"
   >
     <div
@@ -13,7 +13,7 @@
       <div class="row align-items-center">
         <h1 class="text-center">About me</h1>
         <div class="col d-flex justify-content-center">
-          <img :src="picture" alt="picture face" srcset="" />
+          <img class="portrait" :src="picture" alt="picture face" />
         </div>
         <div class="col d-flex justify-content-center">
           <p>
@@ -97,14 +97,46 @@
         </div>
       </div>
       <div class="mt-5 d-flex justify-content-center">
-        <a
+
+        <button
           class="btn btn-outline-primary btn-lg"
-          href="/about"
-          @click.prevent="$emit('scroll', 'about')"
           :class="{ 'text-light': nightMode }"
+          data-bs-toggle="modal"
+          data-bs-target="#resumeModal"
         >
           View my resume
-        </a>
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="resumeModal"
+      tabindex="-1"
+      aria-labelledby="resumeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" :class="{ 'text-dark': !nightMode, 'text-dark': nightMode }" id="resumeModalLabel">Resume Cristine Marquez</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid" src="../assets/pdf/Cristine_Marquez_CV_ENG_page-0001.jpeg" alt="resume cristine in english" srcset="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary border-btn-cancel" data-bs-dismiss="modal">
+              Close
+            </button>
+            <a type="button" data-bs-dismiss="modal" class="btn btn-outline-primary border-btn" href="../assets/pdf/Cristine_Marquez_CV_ENG.pdf" download="Cristine_Marquez_CV_ENG.pdf">Download</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -150,18 +182,13 @@ export default {
 </script>
 
 <style scoped>
-/* .bg-white {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/images/masthead.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 .home-title {
   font-size: 28px;
   font-weight: 500;
 }
 
 @media only screen and (max-width: 580px) {
-  img {
+  .portrait {
     object-fit: cover;
     border-radius: 50%;
     height: 200px;
@@ -183,14 +210,35 @@ export default {
   border-color: #e28194 !important;
 }
 
-.btn:focus {
+.border-btn:focus {
   background-color: #e28194 !important;
   border-color: #e28194 !important;
   color: white;
 }
 
-.btn {
+.border-btn {
   border-color: #e28194;
+}
+
+.btn-outline-secondary {
+  border-color: #7b7d7d;
+  color: black;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #7b7d7d !important;
+  border-color: #7b7d7d !important;
+}
+
+.border-btn-cancel:focus {
+  background-color: #7b7d7d !important;
+  border-color: #7b7d7d !important;
+  color: white;
+}
+
+.border-btn-cancel {
+  border-color: #7b7d7d;
 }
 
 .w-icon {

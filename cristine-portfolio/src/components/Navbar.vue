@@ -60,7 +60,8 @@
                 href="#"
                 @click.prevent="switchMode"
                 :class="{ 'text-light': nightMode }"
-                ><i
+                >
+                <i
                   :class="{
                     'fas fa-moon': nightMode,
                     'far fa-moon': !nightMode,

@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ 'bg-star': !nightMode, 'bg-dark': nightMode }" class="p-st">
+  <div :class="{ 'bg-star': !nightMode, 'bg-dark3': nightMode }" class="p-st">
     <div class="container py-4">
       <div
         class="text-center"
@@ -10,7 +10,7 @@
         <h1
           class="text-center mb-4"
           style="color: white"
-          :class="{ 'text-light': !nightMode, 'text-light': nightMode }"
+          :class="{ 'text-dark': !nightMode, 'text-light': nightMode }"
         >
           Projects
         </h1>
@@ -20,36 +20,8 @@
         id="carouselExampleIndicators"
         class="carousel slide"
         data-bs-ride="carousel"
-        :class="{ 'carousel-dark': !nightMode, 'carousel-dark': nightMode }"
+        :class="{ 'carousel-dark': !nightMode, 'carousel': nightMode }"
       >
-        <div class="carousel-indicators mb-0">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-        </div>
         <div class="carousel-inner m-2">
           <div class="carousel-item active">
             <div class="row justify-content-center">
@@ -63,12 +35,12 @@
               <div class="col-4">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-title">Broggi</h5>
-                    <p class="card-text">
+                    <h5 class="card-title text-black">Broggi</h5>
+                    <p class="card-text text-black">
                       With supporting text below as a natural lead-in to
                       additional content.
                     </p>
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
                   </div>
                 </div>
               </div>
@@ -87,12 +59,12 @@
               <div class="col-4">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-title">Doodle Jump</h5>
-                    <p class="card-text">
+                    <h5 class="card-title text-black">Doodle Jump</h5>
+                    <p class="card-text text-black">
                       With supporting text below as a natural lead-in to
                       additional content.
                     </p>
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
                   </div>
                 </div>
               </div>
@@ -111,12 +83,12 @@
               <div class="col-4">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-title">Pokedex</h5>
-                    <p class="card-text">
+                    <h5 class="card-title text-black">Pokedex</h5>
+                    <p class="card-text text-black">
                       With supporting text below as a natural lead-in to
                       additional content.
                     </p>
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
                   </div>
                 </div>
               </div>
@@ -135,12 +107,12 @@
               <div class="col-4">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-title">Rick and Morty</h5>
-                    <p class="card-text">
+                    <h5 class="card-title text-black">Rick and Morty</h5>
+                    <p class="card-text text-black">
                       With supporting text below as a natural lead-in to
                       additional content.
                     </p>
-                    <a href="#" class="btn btn-primary">Button</a>
+                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
                   </div>
                 </div>
               </div>
@@ -241,6 +213,27 @@ hr {
   height: 0;
   overflow: visible;
   opacity: 0.25 !important;
+}
+
+.btn-outline-primary {
+  border-color: #d26375;
+  color: black;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+}
+
+.btn:focus {
+    background-color: #d26375 !important;
+    border-color: #d26375 !important;
+    color: white;
+}
+
+.btn-border {
+  border-color: #d26375;
 }
 
 /* @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,900");

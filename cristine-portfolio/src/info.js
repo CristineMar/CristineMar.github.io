@@ -1,7 +1,7 @@
 let info = {
   name: "Cristine Marquez",
   logo_name: "Cristine",
-  flat_picture: require("./assets/images/portrait.jpeg"),
+  flat_picture: require("./assets/images/hi.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,7 +9,7 @@ let info = {
     },
   },
   description:
-    "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. If you want to know more about me Scroll down!",
+    "Hi! My name is Cristine Marquez and I'm a web developer, I started coding around 2019 when I was on my sabatical year and decided to enroll in a 3 months Front-End Bootcamp in Ubiqum then after that I started working as a Front-end Developer in a company for about a year, but then I've decided to continue my studies and enrolled in a vocational school in Centre d'Estudis Politécnics, my course was 'web application developer'. If you want to know more about me and my skills scroll down!",
   links: {
     linkedin: "https://www.linkedin.com/in/cristine-marquez/",
     github: "https://github.com/CristineMar",
