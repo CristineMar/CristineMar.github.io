@@ -1,1 +1,0 @@
-/* Copyright (C) 2021-2022 Cristine Paula Marquez Santiago - All Rights Reserved */
