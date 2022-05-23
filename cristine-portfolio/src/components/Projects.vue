@@ -27,9 +27,10 @@
             <div class="row justify-content-center">
               <div class="col-4">
                 <img
-                  src="../assets/images/black-logo.png"
-                  class="d-block w-100"
-                  alt="..."
+                  src="../assets/images/broggi.png"
+                  class="d-block"
+                  style="width: 25em;"
+                  alt="broggi logo image"
                 />
               </div>
               <div class="col-4">
@@ -37,10 +38,11 @@
                   <div class="card-body">
                     <h5 class="card-title text-black">Broggi</h5>
                     <p class="card-text text-black">
-                      With supporting text below as a natural lead-in to
-                      additional content.
+                      A website for 112 emergencies to manage calls and send help.
+                      Made with Vue2, Laravel, PHP, HTML, CSS
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
+                    <a href="https://youtu.be/r6vbTg7-T8c" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/projecteBroggi" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -90,7 +92,7 @@
                       A pokedex website to add, edit and delete pokemon on your pokemon list.
                       Made with PHP
                     </p>
-                    <a href="https://cristinemar.github.io/DoodleJump/" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://youtu.be/jkeuMssnFOU" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
                     <a href="https://github.com/CristineMar/pokemonPHP" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
@@ -113,11 +115,36 @@
                   <div class="card-body">
                     <h5 class="card-title text-black">Rick and Morty</h5>
                     <p class="card-text text-black">
-                      With supporting text below as a natural lead-in to
-                      additional content.
+                      An ionic app with angular ang rick and morty API
                     </p>
-                    <a href="https://cristinemar.github.io/DoodleJump/" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
-                    <a href="https://github.com/CristineMar/pokemonPHP" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                    <a href="https://youtu.be/6C_8wyRRae8" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/rickandmorty" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-4">
+                <img
+                  src="../assets/images/ABP.png"
+                  class="d-block"
+                  style="width: 25em;"
+                  alt="ABP image"
+                />
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-black">ABP</h5>
+                    <p class="card-text text-black">
+                      A list with to edit, delete, add and filter based on modules.
+                      Made with Laravel and Vuejs
+                    </p>
+                    <a href="https://youtu.be/DVACzkVQ65s" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/ABP_Cristine_Marquez" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
