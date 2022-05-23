@@ -51,9 +51,10 @@
             <div class="row justify-content-center">
               <div class="col-4">
                 <img
-                  src="../assets/images/black-logo.png"
-                  class="d-block w-100"
-                  alt="..."
+                  src="../assets/images/doodle.png"
+                  class="d-block"
+                  alt="doodle jump picture"
+                  style="width: 25em;"
                 />
               </div>
               <div class="col-4">
@@ -61,10 +62,10 @@
                   <div class="card-body">
                     <h5 class="card-title text-black">Doodle Jump</h5>
                     <p class="card-text text-black">
-                      With supporting text below as a natural lead-in to
-                      additional content.
+                      A platform game called DoodleJump in pure Javascript, HTML and CSS.
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
+                    <a href="https://cristinemar.github.io/DoodleJump/" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/CristineMar.github.io/tree/gh_pages/DoodleJump" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -75,9 +76,10 @@
             <div class="row justify-content-center">
               <div class="col-4">
                 <img
-                  src="../assets/images/black-logo.png"
-                  class="d-block w-100"
-                  alt="..."
+                  src="../assets/images/pokedex.png"
+                  class="d-block"
+                  style="width: 25em;"
+                  alt="pokedex image"
                 />
               </div>
               <div class="col-4">
@@ -85,10 +87,11 @@
                   <div class="card-body">
                     <h5 class="card-title text-black">Pokedex</h5>
                     <p class="card-text text-black">
-                      With supporting text below as a natural lead-in to
-                      additional content.
+                      A pokedex website to add, edit and delete pokemon on your pokemon list.
+                      Made with PHP
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
+                    <a href="https://cristinemar.github.io/DoodleJump/" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/pokemonPHP" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
@@ -99,9 +102,10 @@
             <div class="row justify-content-center">
               <div class="col-4">
                 <img
-                  src="../assets/images/black-logo.png"
-                  class="d-block w-100"
-                  alt="..."
+                  src="../assets/images/rickmorty.png"
+                  class="d-block"
+                  style="width: 25em;"
+                  alt="rick and morty image"
                 />
               </div>
               <div class="col-4">
@@ -112,7 +116,8 @@
                       With supporting text below as a natural lead-in to
                       additional content.
                     </p>
-                    <a href="#" class="btn btn-outline-primary btn-border">Button</a>
+                    <a href="https://cristinemar.github.io/DoodleJump/" target="__blank" class="btn btn-outline-primary btn-border">Demo</a>
+                    <a href="https://github.com/CristineMar/pokemonPHP" target="__blank" class="btn btn-outline-primary btn-border mx-3">Code</a>
                   </div>
                 </div>
               </div>
