@@ -25,15 +25,15 @@
         <div class="carousel-inner m-2">
           <div class="carousel-item active">
             <div class="row justify-content-center">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <img
                   src="../assets/images/broggi.png"
-                  class="d-block"
+                  class="d-block img-fluid"
                   style="width: 25em;"
                   alt="broggi logo image"
                 />
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title text-black">Broggi</h5>
@@ -51,15 +51,15 @@
 
           <div class="carousel-item">
             <div class="row justify-content-center">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <img
                   src="../assets/images/doodle.png"
-                  class="d-block"
+                  class="d-block img-fluid"
                   alt="doodle jump picture"
                   style="width: 25em;"
                 />
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title text-black">Doodle Jump</h5>
@@ -76,15 +76,15 @@
 
           <div class="carousel-item">
             <div class="row justify-content-center">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <img
                   src="../assets/images/pokedex.png"
-                  class="d-block"
+                  class="d-block img-fluid"
                   style="width: 25em;"
                   alt="pokedex image"
                 />
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title text-black">Pokedex</h5>
@@ -102,15 +102,15 @@
 
           <div class="carousel-item">
             <div class="row justify-content-center">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <img
                   src="../assets/images/rickmorty.png"
-                  class="d-block"
+                  class="d-block img-fluid"
                   style="width: 25em;"
                   alt="rick and morty image"
                 />
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title text-black">Rick and Morty</h5>
@@ -127,15 +127,15 @@
 
           <div class="carousel-item">
             <div class="row justify-content-center">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <img
                   src="../assets/images/ABP.png"
-                  class="d-block"
+                  class="d-block img-fluid"
                   style="width: 25em;"
                   alt="ABP image"
                 />
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-8 col-sm-8">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title text-black">ABP</h5>

@@ -15,7 +15,7 @@
     >
       <h1
         class="mb-3"
-        :class="{ 'text-dark': !nightMode, 'text-pink': nightMode }"
+        :class="{ 'text-dark': !nightMode, 'text-white': nightMode }"
       >
         Like what you see?
       </h1>

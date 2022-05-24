@@ -9,7 +9,7 @@
       <div class="row align-items-center">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 m-auto">
           <div class="d-flex justify-content-center">
-            <img :src="nightMode ? black : white" alt="logo cristine" />
+            <img class="img-fluid" :src="nightMode ? black : white" alt="logo cristine" />
           </div>
           <h1 class="home-title pink" > <!-- :class="{ 'pink': !nightMode, 'text-light': nightMode }" -->
             Hi! My name is Cristine Marquez.
@@ -84,7 +84,7 @@ export default {
   font-family: 'glacial_indifferenceregular' , sans-serif;
 }
 
-@media only screen and (max-width: 580px) {
+/* @media only screen and (max-width: 580px) {
   img {
     object-fit: cover;
     border-radius: 50%;
@@ -94,7 +94,7 @@ export default {
     margin-bottom: 10px;
     border: 2px solid rgb(205, 205, 205);
   }
-}
+} */
 
 .fa {
   font-size: 15px;
@@ -158,7 +158,7 @@ p {
 
 .change_content:after {
   content: "";
-  animation: changetext 5s infinite linear;
+  animation: changetext 8s infinite linear;
 }
 
 .txt-black {

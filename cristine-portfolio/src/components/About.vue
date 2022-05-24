@@ -28,14 +28,9 @@
       <!-- WHAT I DO -->
       <div class="row align-items-center">
         <h3 class="text-center mb-4">What I do</h3>
-        <div
-          class="
-            col
-            d-flex
-            justify-content-center
-            align-items-center
-            flex-column
-          "
+        <div class=" col-lg-3
+            col-md-6
+            col-sm-12 d-flex justify-content-center align-items-center flex-column"
           data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="1000"
@@ -46,7 +41,9 @@
         </div>
         <div
           class="
-            col
+            col-lg-3
+            col-md-6
+            col-sm-12
             d-flex
             justify-content-center
             align-items-center
@@ -63,7 +60,9 @@
         </div>
         <div
           class="
-            col
+            col-lg-3
+            col-md-6
+            col-sm-12
             d-flex
             justify-content-center
             align-items-center
@@ -80,7 +79,9 @@
         </div>
         <div
           class="
-            col
+            col-lg-3
+            col-md-6
+            col-sm-12
             d-flex
             justify-content-center
             align-items-center
@@ -89,7 +90,7 @@
           data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="1000"
-          data-aos-delay="900"
+          data-aos-delay="700"
           data-aos-once="false"
         >
           <i class="w-icon fa-solid fa-display fa-6x"></i>
@@ -97,7 +98,6 @@
         </div>
       </div>
       <div class="mt-5 d-flex justify-content-center">
-
         <button
           class="btn btn-outline-primary btn-lg"
           :class="{ 'text-light': nightMode }"
@@ -119,7 +119,13 @@
       <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" :class="{ 'text-dark': !nightMode, 'text-dark': nightMode }" id="resumeModalLabel">Resume Cristine Marquez</h5>
+            <h5
+              class="modal-title"
+              :class="{ 'text-dark': !nightMode, 'text-dark': nightMode }"
+              id="resumeModalLabel"
+            >
+              Resume Cristine Marquez
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -128,13 +134,29 @@
             ></button>
           </div>
           <div class="modal-body">
-            <img class="img-fluid" src="../assets/pdf/Cristine_Marquez_CV_ENG_page-0001.jpeg" alt="resume cristine in english" srcset="">
+            <img
+              class="img-fluid"
+              src="../assets/pdf/Cristine_Marquez_CV_ENG_page-0001.jpeg"
+              alt="resume cristine in english"
+              srcset=""
+            />
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-secondary border-btn-cancel" data-bs-dismiss="modal">
+            <button
+              type="button"
+              class="btn btn-outline-secondary border-btn-cancel"
+              data-bs-dismiss="modal"
+            >
               Close
             </button>
-            <a type="button" data-bs-dismiss="modal" class="btn btn-outline-primary border-btn" href="../assets/pdf/Cristine_Marquez_CV_ENG.pdf" download="Cristine_Marquez_CV_ENG.pdf">Download</a>
+            <a
+              type="button"
+              data-bs-dismiss="modal"
+              class="btn btn-outline-primary border-btn"
+              href="../assets/pdf/Cristine_Marquez_CV_ENG.pdf"
+              download="Cristine_Marquez_CV_ENG.pdf"
+              >Download</a
+            >
           </div>
         </div>
       </div>
